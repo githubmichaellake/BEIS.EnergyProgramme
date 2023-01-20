@@ -1,7 +1,10 @@
+using BEIS.EnergyProgramme.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IndexService>();
 
 var app = builder.Build();
 

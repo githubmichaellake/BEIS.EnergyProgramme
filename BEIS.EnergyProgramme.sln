@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEIS.EnergyProgramme.Web", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEIS.EnergyProgramme.Services", "BEIS.EnergyProgramme.Services\BEIS.EnergyProgramme.Services.csproj", "{04198065-6BF9-4874-99D9-B2389FD1A9A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEIS.Tests", "BEIS.Tests\BEIS.Tests.csproj", "{F6D93901-F3D4-4A90-8A00-CC47E98B8876}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEIS.energyProgramme.Tests", "BEIS.energyProgramme.Tests\BEIS.energyProgramme.Tests.csproj", "{589E8DAA-C97E-451C-BDB1-21A93BC73741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{04198065-6BF9-4874-99D9-B2389FD1A9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04198065-6BF9-4874-99D9-B2389FD1A9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04198065-6BF9-4874-99D9-B2389FD1A9A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6D93901-F3D4-4A90-8A00-CC47E98B8876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6D93901-F3D4-4A90-8A00-CC47E98B8876}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6D93901-F3D4-4A90-8A00-CC47E98B8876}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6D93901-F3D4-4A90-8A00-CC47E98B8876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589E8DAA-C97E-451C-BDB1-21A93BC73741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589E8DAA-C97E-451C-BDB1-21A93BC73741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589E8DAA-C97E-451C-BDB1-21A93BC73741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589E8DAA-C97E-451C-BDB1-21A93BC73741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

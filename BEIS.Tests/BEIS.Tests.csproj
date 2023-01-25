@@ -55,6 +55,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BEIS.EnergyProgramme.Services\BEIS.EnergyProgramme.Services.csproj">
+      <Project>{04198065-6bf9-4874-99d9-b2389fd1a9a2}</Project>
+      <Name>BEIS.EnergyProgramme.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BEIS.EnergyProgramme.Web\BEIS.EnergyProgramme.Web.csproj">
+      <Project>{01525f3f-2385-4876-811b-7567fa4fe516}</Project>
+      <Name>BEIS.EnergyProgramme.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
